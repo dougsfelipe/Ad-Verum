@@ -131,6 +131,34 @@ h1{
     align-items: center;
 }
 
+.card-title {
+    margin-bottom: .75rem;
+    padding-bottom: 5px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.btn{
+    width: 100%;
+}
+.card{
+    box-shadow: 0 1px 1px 0 #ECECEC, 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover{
+
+}
+
+
+
+@media (min-width: 820px){
+    .card-deck {
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 50px;
+    }
+    }
 
 
 @media(max-width: 850px){
@@ -150,10 +178,8 @@ h1{
    
 }
 
-@media (min-width: 576px){}
-.card-deck {
- 
-    padding: 50px;
-}
+
+
+
 
 
