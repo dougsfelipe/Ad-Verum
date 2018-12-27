@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
 
- 
+        <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+        <link rel="icon" href="images/icon.png" type="image/x-icon">
 
-    <title>Hello, world!</title>
+    <title>Ad Verum</title>
 </head>
 
 <body>
@@ -52,7 +53,7 @@
                 <a class="navbar-brand" href="#">
                     <img src="images/carrinho.png" id="imagem_carrinho">
                 </a>
-                <div id="teste" value="12">0</input>
+                <div id="teste2">0</div>
 
             </div>
         </div>
@@ -63,18 +64,17 @@
         <div class="banner-fundo">
 
             <div class="banner-coluna2">
-                <div class="banner-botao">
+                
 
-                    Veja nossos Cursos
+                    <a id = "link" href="#curso" title="Clique aqui e veja nossos cursos" ><h2>VEJA NOSSOS CURSOS</h2></a>
 
-                </div>
             </div>
 
         </div>
     </div>
 
 
-    <div class="titulo">
+    <div id= "curso"class="titulo">
         <h1>Cursos</h1>
         <hr class='titulo-linha'>
     </div>
@@ -82,31 +82,31 @@
     <div class="card-deck">
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+            <img class="card-img-top" src="images/Card5.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Curso de Java</h5>
-                <p class="card-text">A Vista 50,00R$</p>
-                <a href="#" class="btn btn-primary" onclick="mudarNome();" >aaAdicionar ao carrinho</a>
+                <h5 class="card-title">Direito Civil</h5>
+                <p class="card-text">R$ 399,00 A vista</p>
+                <a href="#" class="btn btn-primary" onclick="somar();" >Adicionar ao Carrinho</a>
             </div>
         </div>
 
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+            <img class="card-img-top" src="images/Card6.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Curso de C++</h5>
-                <p class="card-text">A vista 50,00R$</p>
-                <a href="#" class="btn btn-primary">Adicionar ao carrinhoe</a>
+                <h5 class="card-title">Direito Penal</h5>
+                <p class="card-text">R$ 399,00 A vista</p>
+                <a href="#" class="btn btn-primary" onclick="somar();">Adicionar ao Carrinho</a>
             </div>
         </div>
 
 
         <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+            <img class="card-img-top" src="images/Card1.png" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <h5 class="card-title">TJ/PE</h5>
+                <p class="card-text">R$ 699,00 A vista</p>
+                <a href="#" class="btn btn-primary" onclick="somar();">Adicionar ao Carrinho</a>
             </div>
         </div>
 
@@ -119,31 +119,31 @@
     <div class="card-deck">
 
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="images/Card2.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Curso de Java</h5>
-                    <p class="card-text">A Vista 50,00R$</p>
-                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    <h5 class="card-title">MP/PE</h5>
+                    <p class="card-text">R$ 590,00 A vista</p>
+                    <a href="#" class="btn btn-primary" onclick="somar();">Adicionar ao Carrinho</a>
                 </div>
             </div>
     
     
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="images/Card3.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Curso de C++</h5>
-                    <p class="card-text">A vista 50,00R$</p>
-                    <a href="#" class="btn btn-primary">Adicionar ao carrinhoe</a>
+                    <h5 class="card-title">Policia Civil</h5>
+                    <p class="card-text">R$ 890,00 A vista</p>
+                    <a href="#" class="btn btn-primary" onclick="somar();">Adicionar ao Carrinho</a>
                 </div>
             </div>
     
     
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="images/banner.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="images/Card4.png" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    <h5 class="card-title">2 Fase OAB</h5>
+                    <p class="card-text">R$ 290,00 A vista</p>
+                    <a href="#" class="btn btn-primary" onclick="somar();">Adicionar ao Carrinho</a>
                 </div>
             </div>
     
@@ -163,8 +163,10 @@
             </div>
 
             <div id="footer-endereco">
-                <img style=" width: 25px; margin-right: 6px" src="images/endereco.png"> Rua 88 quadra 66 bloco 1 apto 402<br>
-                             Maranguape 1 - Paulista - PE
+                <img style=" width: 25px; margin-right: 6px;margin-top:12px" src="images/endereco.png"> 
+                <div id="endereco">Rua 88 quadra 66 bloco 1 apto 402<br>
+                             Torre - Recife - PE
+                            </div>
             </div>
 
         </div>
@@ -181,14 +183,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-        <script>
-                function mudarNome()
-                {
-                    document.getElementById("teste").innerHTML=document.getElementById("teste").value;
-            
-                    alert(document.getElementById("teste").value);
-                }
-                </script>
+        <script src="main.js"></script>
 
 </body>
 
